@@ -1,4 +1,6 @@
 # Website
+[![Build Status](https://travis-ci.com/leegibsonhoward/www.leegibsonhoward.com.svg?branch=master)](https://travis-ci.com/leegibsonhoward/www.leegibsonhoward.com)
+[![Coverage Status](https://coveralls.io/repos/github/leegibsonhoward/www.leegibsonhoward.com/badge.svg?branch=master)](https://coveralls.io/github/leegibsonhoward/www.leegibsonhoward.com?branch=master)
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
