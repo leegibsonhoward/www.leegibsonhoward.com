@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Lee G. Howard',
   tagline: 'The tagline of my site',
   url: 'https://www.leegibsonhoward.com',
   baseUrl: '/',
