@@ -5,5 +5,5 @@ import Welcome from './Welcome';
 
 test('has correct welcome text', () => {
     render(<Welcome firstName="Jon" lastName="Snow" />)
-    expect(screen.getByRole('heading')).toHaveTextContent('Welcome, Jon glow')
+    expect(screen.getByRole('heading')).toHaveTextContent('Welcome, Jon Snow')
   })
