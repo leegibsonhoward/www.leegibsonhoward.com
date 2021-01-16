@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'www.leegibsonhoward.com', // Github repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Lee G. Howard',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
