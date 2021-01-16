@@ -12,8 +12,8 @@ module.exports = {
     navbar: {
       title: 'Lee G. Howard',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Lee G. Howard Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
