@@ -8,14 +8,10 @@ import React, { useState } from 'react'
 //
 
 const Welcome = (props) => {
-    const [values, setValues] = useState({
+    const [values] = useState({
       firstName: props.firstName,
       lastName: props.lastName,
     })
-  
-    const handleChange = (event) => {
-      setValues({ ...values, [event.target.name]: event.target.value })
-    }
   
     return (
       <div>
@@ -29,7 +25,7 @@ const Welcome = (props) => {
             <input
               value={values.firstName}
               name="firstName"
-              onChange={handleChange}
+              readOnly={true}
             />
           </label>
   
@@ -38,7 +34,7 @@ const Welcome = (props) => {
             <input
               value={values.lastName}
               name="lastName"
-              onChange={handleChange}
+              readOnly={true}
             />
           </label>
         </form>
