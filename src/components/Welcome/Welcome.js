@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 //
 // This is a unused component I added just to run a successful test
@@ -8,38 +8,30 @@ import React, { useState } from 'react'
 //
 
 const Welcome = (props) => {
-    const [values] = useState({
-      firstName: props.firstName,
-      lastName: props.lastName,
-    })
-  
-    return (
-      <div>
-        <h1>
-          Welcome, {values.firstName} {values.lastName}
-        </h1>
-  
-        <form name="userName">
-          <label>
-            First Name
-            <input
-              value={values.firstName}
-              name="firstName"
-              readOnly={true}
-            />
-          </label>
-  
-          <label>
-            Last Name
-            <input
-              value={values.lastName}
-              name="lastName"
-              readOnly={true}
-            />
-          </label>
-        </form>
-      </div>
-    )
-  }
-  
-  export default Welcome
+  const [values] = useState({
+    firstName: props.firstName,
+    lastName: props.lastName,
+  });
+
+  return (
+    <div>
+      <h1>
+        Welcome, {values.firstName} {values.lastName}
+      </h1>
+
+      <form name="userName">
+        <label>
+          First Name
+          <input value={values.firstName} name="firstName" readOnly={true} />
+        </label>
+
+        <label>
+          Last Name
+          <input value={values.lastName} name="lastName" readOnly={true} />
+        </label>
+      </form>
+    </div>
+  );
+};
+
+export default Welcome;

@@ -12,18 +12,15 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'standard',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 12,
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: [
-    'react'
-  ],
-  rules: {
-  }
-}
+  plugins: ['react'],
+  rules: {},
+};
