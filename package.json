@@ -11,7 +11,7 @@
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "lint": "eslint ./",
-    "lint-fix": "eslint ./ --fix",
+    "lint:fix": "eslint ./ --fix",
     "test": "jest --coverage && coveralls < coverage/lcov.info",
     "test:local": "jest --verbose"
   },
