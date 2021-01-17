@@ -22,5 +22,6 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
+  ignorePatterns: ['.docusaurus', 'build'],
   rules: {},
 };
