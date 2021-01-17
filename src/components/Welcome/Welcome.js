@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 //
 // This is a unused component I added just to run a successful test
@@ -12,7 +13,6 @@ const Welcome = (props) => {
     firstName: props.firstName,
     lastName: props.lastName,
   });
-
   return (
     <div>
       <h1>
@@ -32,6 +32,11 @@ const Welcome = (props) => {
       </form>
     </div>
   );
+};
+
+Welcome.propTypes = {
+  firstName: PropTypes.string.isRequired,
+  lastName: PropTypes.string.isRequired,
 };
 
 export default Welcome;
