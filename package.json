@@ -12,6 +12,8 @@
     "clear": "docusaurus clear",
     "lint:js": "eslint ./",
     "lint:js:fix": "eslint ./ --fix",
+    "lint:md": "markdownlint '**/*.md'",
+    "lint:md:fix": "markdownlint '**/*.md' --fix",
     "test": "jest --coverage && coveralls < coverage/lcov.info",
     "test:local": "jest --verbose"
   },
