@@ -1,4 +1,5 @@
-# Website
+# Home of Lee G. Howard
+
 [![Build Status](https://travis-ci.com/leegibsonhoward/www.leegibsonhoward.com.svg?branch=master)](https://travis-ci.com/leegibsonhoward/www.leegibsonhoward.com)
 [![Coverage Status](https://coveralls.io/repos/github/leegibsonhoward/www.leegibsonhoward.com/badge.svg?branch=master)](https://coveralls.io/github/leegibsonhoward/www.leegibsonhoward.com?branch=master)
 
