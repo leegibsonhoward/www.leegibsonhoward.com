@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'leegibsonhoward', // Github org/user name.
   projectName: 'www.leegibsonhoward.com', // Github repo name.
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       title: 'Lee G. Howard',
       logo: {
