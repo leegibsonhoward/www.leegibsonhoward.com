@@ -38,12 +38,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Welcome',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Docusaurus Style Guide',
+              to: 'docs/docusaurus/style-guide/',
             },
           ],
         },
