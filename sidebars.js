@@ -6,6 +6,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'C Programming Language',
+      items: ['c/escape'],
+    },
+    {
+      type: 'category',
       label: 'Docusaurus',
       items: ['docusaurus/style-guide'],
     },
