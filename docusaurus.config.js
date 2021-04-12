@@ -25,6 +25,12 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
+          to: 'about/',
+          activeBasePath: 'about',
+          label: 'About',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/leegibsonhoward',
           label: 'GitHub',
           position: 'right',
