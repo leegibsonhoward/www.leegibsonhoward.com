@@ -4,4 +4,5 @@ module.exports = {
   },
   testPathIgnorePatterns: [`node_modules`, `\\.docusaurus`, `<rootDir>/build`],
   transformIgnorePatterns: [`node_modules/(?!(@babel)/)`],
+  verbose: true,
 };
