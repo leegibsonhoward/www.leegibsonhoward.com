@@ -6,6 +6,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import RecentPosts from '../components/RecentPosts';
 
 const features = [
   {
@@ -58,18 +59,23 @@ function Home() {
     <Layout description="Portfolio, Blog, and Docs all in one place!">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}
-            >
-              Get Started
-            </Link>
+          <div className="row">
+            <div className="col col--6">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <div className={styles.buttons}>
+                <Link
+                  className={clsx(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted,
+                  )}
+                  to={useBaseUrl('docs/')}
+                >
+                  Get Started
+                </Link>
+              </div>
+            </div>
+            <RecentPosts posts={1} />
           </div>
         </div>
       </header>
