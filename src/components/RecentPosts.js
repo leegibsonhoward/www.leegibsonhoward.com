@@ -11,14 +11,16 @@ import recentPosts from '../../.docusaurus/docusaurus-plugin-content-blog/defaul
 function RecentPosts(props) {
   return (
     <>
-      <header className="hero__title">Recent Post</header>
-      <ul>
-        {recentPosts.items.slice(0, props.posts).map((item, index) => (
-          <li key={index}>
-            <a href={`${item.permalink}`}>{item.title}</a>{' '}
-          </li>
-        ))}
-      </ul>
+      <div className="col col--6">
+        <header className="hero__title">Recent Post</header>
+        <ul>
+          {recentPosts.items.slice(0, props.posts).map((item, index) => (
+            <li key={index}>
+              <a href={`${item.permalink}`}>{item.title}</a>{' '}
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 }
