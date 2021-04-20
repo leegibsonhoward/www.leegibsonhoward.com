@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Lee G. Howard',
-  tagline: 'The tagline of my site',
+  tagline: 'WELCOME TO THE HOME OF',
   url: 'https://www.leegibsonhoward.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
