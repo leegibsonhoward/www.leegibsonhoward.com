@@ -11,6 +11,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Notes',
+      items: ['notes/googlemock'],
+    },
+    {
+      type: 'category',
       label: 'Docusaurus',
       items: ['docusaurus/style-guide'],
     },
