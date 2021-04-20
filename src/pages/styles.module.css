@@ -36,3 +36,11 @@
   height: 200px;
   width: 200px;
 }
+
+.heroSubtitle {
+  margin: 0 auto;
+  border-bottom: dotted;
+  max-width: 30%;
+  border-width: thin;
+  text-align: center;
+}

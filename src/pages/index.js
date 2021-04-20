@@ -58,7 +58,9 @@ function Home() {
     <Layout description="Portfolio, Blog, and Docs all in one place!">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className={('hero__subtitle', styles.heroSubtitle)}>
+            {siteConfig.tagline}
+          </p>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <div className={styles.buttons}>
             <Link
