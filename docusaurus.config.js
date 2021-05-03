@@ -32,8 +32,9 @@ module.exports = {
         },
         {
           href: 'https://github.com/leegibsonhoward',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
